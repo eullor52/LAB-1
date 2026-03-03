@@ -16,7 +16,7 @@ Complex dif_cmplx(Complex* right, Complex* left)
     return result;
 }
 
-Complex mul_cmplx(Complex* right, Complex* left)
+Complex mult_cmplx(Complex* right, Complex* left)
 {
     Complex result;
     result.Re = right->Re * left->Re + right->Im * left->Im;

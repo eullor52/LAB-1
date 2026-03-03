@@ -3,6 +3,7 @@
 
 #include "complex.h"
 
-Complex parse_cmplx(const char* str);
+char* generate_output(double* lnf, unsigned int size);
+int sprint_cmplx(char** str, Complex num);
 
 #endif
